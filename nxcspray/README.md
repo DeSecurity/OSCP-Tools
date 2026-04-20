@@ -1,6 +1,8 @@
 # nxcspray
 Simple bash script to spray known credentials against multiple services with netexec (https://www.netexec.wiki/)
 
+https://www.youtube.com/watch?v=G6l0YEJYXXc
+
 # Installation
 Clone this repo or download the script directly.
 

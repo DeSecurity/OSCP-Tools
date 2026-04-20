@@ -1,0 +1,1 @@
+param($n="192.168.1");$o="nscan.txt";""|Out-File $o;1..254|%{if(Test-Connection "$n.$_" -Count 1 -Quiet){"$n.$_"|Tee-Object -FilePath $o -Append}}
